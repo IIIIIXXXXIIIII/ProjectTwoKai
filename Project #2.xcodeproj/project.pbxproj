@@ -13,6 +13,7 @@
 		1850566E209348EE0024AD9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1850566C209348EE0024AD9F /* Main.storyboard */; };
 		18505670209348F10024AD9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1850566F209348F10024AD9F /* Assets.xcassets */; };
 		18505673209348F10024AD9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18505671209348F10024AD9F /* LaunchScreen.storyboard */; };
+		1850568120936A0F0024AD9F /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850568020936A0F0024AD9F /* ItemList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1850566F209348F10024AD9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18505672209348F10024AD9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18505674209348F10024AD9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1850568020936A0F0024AD9F /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				18505668209348EE0024AD9F /* FirstViewController.swift */,
 				1850566A209348EE0024AD9F /* SecondViewController.swift */,
 				1850566C209348EE0024AD9F /* Main.storyboard */,
+				1850568020936A0F0024AD9F /* ItemList.swift */,
 				1850566F209348F10024AD9F /* Assets.xcassets */,
 				18505671209348F10024AD9F /* LaunchScreen.storyboard */,
 				18505674209348F10024AD9F /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1850568120936A0F0024AD9F /* ItemList.swift in Sources */,
 				1850566B209348EE0024AD9F /* SecondViewController.swift in Sources */,
 				18505667209348EE0024AD9F /* AppDelegate.swift in Sources */,
 				18505669209348EE0024AD9F /* FirstViewController.swift in Sources */,
