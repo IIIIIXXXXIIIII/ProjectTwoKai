@@ -44,7 +44,7 @@ class FirstViewController: UIViewController {
         label5.center = CGPoint(x: 200, y: 500)
         label5.textAlignment = .center
         label5.numberOfLines = 4 	
-        label5.text = "I am an avid Gamer, and i aspire to build abusiness that connects American customers to Japanese markets."
+        label5.text = "I am an avid Gamer, and I aspire to build abusiness that connects American customers to Japanese markets."
         self.view.addSubview(label5)
         
         
