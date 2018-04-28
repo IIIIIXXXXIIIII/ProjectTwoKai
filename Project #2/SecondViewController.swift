@@ -22,9 +22,15 @@ class SecondViewController: UIViewController {
     @IBAction func Convert(_ sender: UIButton) {
         var convertedNumber =
             Int(INPUT.text!)!
-        convertedNumber = convertedNumber - 32 * 5/9
+        convertedNumber = (convertedNumber - 32) * 5/9
         OUTPUT.text = "\(convertedNumber)"
         
+        
+        
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        INPUT.resignFirstResponder()
     }
     
     override func didReceiveMemoryWarning() {
